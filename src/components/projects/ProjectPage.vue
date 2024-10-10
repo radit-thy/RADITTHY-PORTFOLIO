@@ -43,7 +43,7 @@
             >
               <img :src="item.logo" class="card-img-top" alt="image" />
               <div class="card-body">
-                <p class="card-text">{{ item.name }}</p>
+                <!-- <p class="card-text">{{ item.name }}</p> -->
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@
             >
               <img :src="item.logo" class="card-img-top" alt="image" />
               <div class="card-body">
-                <p class="card-text">{{ item.name }}</p>
+                <!-- <p class="card-text">{{ item.name }}</p> -->
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@
             >
               <img :src="item.logo" class="card-img-top" alt="image" />
               <div class="card-body">
-                <p class="card-text">{{ item.name }}</p>
+                <!-- <p class="card-text">{{ item.name }}</p> -->
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@
             >
               <img :src="item.logo" class="card-img-top" alt="image" />
               <div class="card-body">
-                <p class="card-text">{{ item.name }}</p>
+                <!-- <p class="card-text">{{ item.name }}</p> -->
               </div>
             </div>
           </div>
@@ -197,7 +197,7 @@
             >
               <img :src="item.logo" class="card-img-top" alt="image" />
               <div class="card-body">
-                <p class="card-text">{{ item.name }}</p>
+                <!-- <p class="card-text">{{ item.name }}</p> -->
               </div>
             </div>
           </div>
@@ -228,7 +228,7 @@
             >
               <img :src="item.logo" class="card-img-top" alt="image" />
               <div class="card-body">
-                <p class="card-text">{{ item.name }}</p>
+                <!-- <p class="card-text">{{ item.name }}</p> -->
               </div>
             </div>
           </div>
@@ -274,7 +274,7 @@
             >
               <img :src="item.logo" class="card-img-top" alt="image" />
               <div class="card-body">
-                <p class="card-text">{{ item.name }}</p>
+                <!-- <p class="card-text">{{ item.name }}</p> -->
               </div>
             </div>
           </div>
@@ -305,7 +305,7 @@
             >
               <img :src="item.logo" class="card-img-top" alt="image" />
               <div class="card-body">
-                <p class="card-text">{{ item.name }}</p>
+                <!-- <p class="card-text">{{ item.name }}</p> -->
               </div>
             </div>
           </div>
@@ -333,138 +333,138 @@ export default {
     return {
       items1: [
         {
-          name: "HTML",
-          logo: "logo.png",
+          name: "Javscript",
+          logo: require('@/assets/Programming/javascript.png'),
+        },
+        {
+          name: "Html",
+          logo: require('@/assets/Programming/html.png'),
         },
         {
           name: "CSS",
-          logo: "logo.png",
-        },
-        {
-          name: "JavaScript",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/css.png'),
         },
       ],
       items2: [
         {
           name: "Laravel",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/laravel.png'),
         },
         {
           name: "Postman",
-          logo: "logo.png",
+          logo: require('@/assets/Tools/postman.png'),
         },
         {
           name: "Swagger",
-          logo: "logo.png",
+          logo: require('@/assets/Tools/swagger.png'),
         },
         {
           name: "Jira",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/jira.png'),
         },
       ],
       items3: [
         {
           name: "PHP",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/php.png'),
         },
         {
           name: "MySQL",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/mysql.png'),
         },
         {
           name: "Bootstrap",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/bootstrap.png'),
         },
         {
           name: "Jira",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/jira.png'),
         },
         {
           name: "Figma",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/figma.png'),
         },
       ],
       items4: [
         {
           name: "Laravel",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/laravel.png'),
         },
         {
           name: "Vue",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/vuejs.png'),
         },
         {
           name: "Mysql",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/mysql.png'),
         },
         {
           name: "Element Plus",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/elementplus.png'),
         },
         {
           name: "Jira",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/jira.png'),
         },
         {
           name: "Figma",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/figma.png'),
         },
       ],
       items5: [
         {
           name: "OOP Concepts",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/oopconcepts.png'),
         },
         {
           name: "TypeScript",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/typescript.png'),
         },
         {
           name: "Jira",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/jira.png'),
         },
       ],
       items6: [
         {
           name: "Python",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/python.png'),
         },
         {
           name: "Figma",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/figma.png'),
         },
       ],
       items7: [
         {
           name: "HTML",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/html.png'),
         },
         {
           name: "CSS",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/css.png'),
         },
         {
           name: "SASS",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/sass.png'),
         },
         {
           name: "Figma",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/figma.png'),
         },
       ],
       items8: [
         {
           name: "WordPress",
-          logo: "logo.png",
+          logo: require('@/assets/Tools/wordpress.png'),
         },
         {
           name: "Ubuntu",
-          logo: "logo.png",
+          logo: require('@/assets/Tools/ubuntu.png'),
         },
         {
           name: "MobaXterm",
-          logo: "logo.png",
+          logo: require('@/assets/Tools/mobaxterm.png'),
         },
       ],
     };

@@ -11,9 +11,8 @@
       class="profile d-flex flex-wrap align-items-center justify-content-center"
     >
       <div class="card" style="width: 15rem" v-for="(item, index) in items" :key="index">
-        <img :src="item.logo" class="card-img-top" alt="image" />
         <div class="card-body">
-          <p class="card-text">{{ item.name }}</p>
+          <img :src="item.logo" class="card-img-top logo-image" alt="image" />
         </div>
       </div>
     </div>
@@ -30,68 +29,68 @@ export default {
     return {
       items: [
         {
-          name: "HTML",
-          logo: "logo.png",
+          name: "Laravel",
+          logo: require('@/assets/Programming/laravel.png'),
         },
         {
-          name: "CSS",
-          logo: "logo.png",
+          name: "Vue js",
+          logo: require('@/assets/Programming/vuejs.png'),
         },
         {
           name: "JavaScript",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/javascript.png'),
+        },
+        {
+          name: "Nodejs",
+          logo: require('@/assets/Programming/node.js.png'),
         },
         {
           name: "PHP",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/php.png'),
         },
         {
-          name: "MYSQL",
-          logo: "logo.png",
-        },
-        {
-          name: "Laravel",
-          logo: "logo.png",
-        },
-        {
-          name: "Vue",
-          logo: "logo.png",
-        },
-        {
-          name: "Node",
-          logo: "logo.png",
+          name: "MySQL",
+          logo: require('@/assets/Programming/mysql.png'),
         },
         {
           name: "Python",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/python.png'),
+        },
+        {
+          name: "TypeScript",
+          logo: require('@/assets/Programming/typescript.png'),
         },
         {
           name: "Bootstrap",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/bootstrap.png'),
         },
         {
-          name: "Git",
-          logo: "logo.png",
+          name: "HTML",
+          logo: require('@/assets/Programming/html.png'),
         },
         {
-          name: "Gira",
-          logo: "logo.png",
-        },
-        {
-          name: "Clockify",
-          logo: "logo.png",
-        },
-        {
-          name: "Typescript",
-          logo: "logo.png",
+          name: "CSS",
+          logo: require('@/assets/Programming/css.png'),
         },
         {
           name: "Figma",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/figma.png'),
+        },
+        {
+          name: "Jira",
+          logo: require('@/assets/Programming/jira.png'),
+        },
+        {
+          name: "Clockify",
+          logo: require('@/assets/Programming/clockify.png'),
+        },
+        {
+          name: "GitHub",
+          logo: require('@/assets/Programming/github.png'),
         },
         {
           name: "Git Source",
-          logo: "logo.png",
+          logo: require('@/assets/Programming/gitsourcecontrol.png'),
         },
       ],
     };
@@ -118,20 +117,24 @@ h3 {
   padding: 20px;
 }
 .card {
-  background: #1e293c;
+  background: #1E293C;
   color: #ffffff;
   height: 250px;
   width: 250px;
-  gap: 150px;
 }
 .card:hover {
-  background: #253349;
-  transition: background 0.3s ease;
+  /* background: #253349; */
+  /* transition: background 0.3s ease; */
   cursor: pointer;
-  transform: scale(1.01);
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 15px;
+  border-radius: 20px;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  /* box-shadow: 0 4px 6px rgba(167, 167, 167, 0.1), 0 2px 4px rgba(255, 255, 255, 0.06); */
+  transition: box-shadow 0.3s ease-in-out;
+  transition: transform 0.9s ease-in-out;
+  transform: translateY(-5px);
+  transition: box-shadow 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .profile {
   display: flex;
@@ -147,5 +150,9 @@ h3 {
   margin-bottom: 10px;
   font-weight: 100;
   font-weight: bold;
+}
+.logo-image {
+  background: #000;
+  /* width: 230px; */
 }
 </style>
